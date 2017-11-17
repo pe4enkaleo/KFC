@@ -90,7 +90,8 @@ language {
 }
 .line {
     display: flex;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    width: 200px
 }
 .dish {
     color: gray;
@@ -102,18 +103,30 @@ language {
     width: 2px;
     height: 100%;
 }
-.leg {
-    background-image: url(oneleg.png)
+.drumstick {
+    width: 200px
 }
-.twolegs {
-    background-image: url(2legs.png)
+.down {
+    display: flex
 }
-.threestrips{
-    background-image: url(3strips.png)
+.block {
+    margin-right: 10px;
+    color: #5b5650;
+    font-size: 12px;
 }
-.sixstrips{
-    background-image: url(6strips.png)
+.headline {
+    font-size: 18px;
+    color: #d72138;
 }
-.ninestrips{
-    background-image: url(9strips.png)
+.food {
+    color: #5b5650;
+    font-size: 12px;
+    border: 0.05px solid lightgray
+}
+.whynot {
+    color: #5b5650
+}
+.small {
+    color: #5b5650;
+    font-size: 11px
 }
